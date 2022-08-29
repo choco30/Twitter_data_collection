@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <content url="jar://$USER_HOME$/Downloads/spark-sql-kafka-0-10_2.12-3.3.0.jar!/" />
+    <content url="jar://C:/bigdata/spark/python/lib/py4j-0.10.9.5-src.zip!/" />
+    <content url="jar://C:/bigdata/spark/python/lib/pyspark.zip!/" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
