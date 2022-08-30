@@ -9,7 +9,7 @@ from kafka import KafkaConsumer
 import os
 conn_string=os.environ.get("conn_string")
 
-spark=SparkSession.builder.appName("Twitter_Structure_Streaming").config("spark.jars.packages","org.mongodb.spark:mongo-spark-connector_2.12:3.0.1,org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0").config(conn_string).config(conn_string).getOrCreate()
+spark=SparkSession.builder.appName("Twitter_Structure_Streaming").config("spark.jars.packages","org.mongodb.spark:mongo-spark-connector_2.12:3.0.1,org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.0").config("spark.mongodb.input.uri",conn_string).config("spark.mongodb.output.uri",conn_string).getOrCreate()
 trend_schema=StructType([StructField("trend_name",StringType(),True),
                          StructField("twee_url",StringType(),True),
                          StructField("tweet_volume",IntegerType(),True)])
