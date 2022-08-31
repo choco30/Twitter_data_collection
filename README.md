@@ -7,11 +7,11 @@ This Project is about fetching the top trending tweets from the twitter for diff
 &emsp;<img src ="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mongodb/mongodb-original-wordmark.svg" width="70" height="70" alt="Mongo Db"/>
 
 ## Installation Steps
-1.First we need to install Python(3.7) and java(jdk 8) On the machine for this projet to work appropiately.
-2.After the successfull installation of above we need to download and <a href="https://kafka.apache.org/">Install Kafka</a> version 2.6.0 with scala version 2.12.
-3.Now we Need to Download Apache Spark <a href ="https://spark.apache.org/downloads.html">Apache Spark </a>version 3.3.0 with hadoop version 3.3. Download the <a href="https://github.com/cdarlint/winutils">winUtils file</a> for hadoop version 3.
-4.Now we need to setup the path in enviornment variables for spark and haddop.
-5.Login to your mongo db atlas cluster and get the connection string to coonect to the database.
+1.First we need to install Python(3.7) and java(jdk 8) On the machine for this projet to work appropiately.<br>
+2.After the successfull installation of above we need to download and <a href="https://kafka.apache.org/">Install Kafka</a> version 2.6.0 with scala version 2.12.<br>
+3.Now we Need to Download Apache Spark <a href ="https://spark.apache.org/downloads.html">Apache Spark </a>version 3.3.0 with hadoop version 3.3. Download the <a href="https://github.com/cdarlint/winutils">winUtils file</a> for hadoop version 3.<br>
+4.Now we need to setup the path in enviornment variables for spark and haddop.<br>
+5.Login to your mongo db atlas cluster and get the connection string to coonect to the database.<br>
 
 ## Deployment Process
 ### starting up zookeeper server on local host 9092
